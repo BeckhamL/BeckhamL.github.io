@@ -1,2 +1,3 @@
 # BeckhamL.github.io
-Website
+
+Personal website to showcase photos and skills
