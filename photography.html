@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="experience.css">
+	<link rel="stylesheet" type="text/css" href="photography.css">
+  <script type="text/javascript" src="photography.js"></script>
 	<title>Photography</title>
 </head>
 <body>
 
-<nav>
-  <div class='container'>
-    <div id='icon'></div>
-    <ul>
-      <li>
-        <a href='index.html'>Home</a>
-      </li>
-      <li>
-        <a href='about_me.html'>About Me</a>
-      </li>
-      <li>
-        <a href='education.html'>Education</a>
-      </li>
-      <li>
-        <a href='projects.html'>Projects</a>
-      </li>
-    </ul>
+  <h2 style="text-align:center">2017</h2>
+
+  <div class="row">
+    <div class="column">
+      <img src="pictures/DSC00071.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      <div class="desc"> Knees are weak </div>
+    </div>
+    <div class="column">
+      <img src="pictures/DSC00116.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      <div class="desc"> Good friends in low light </div>
+    </div>
+    <div class="column">
+      <img src="pictures/DSC00169.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      <div class="desc"> Stillness </div>
+    </div>
+    <div class="column">
+      <img src="pictures/shooter.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      <div class="desc"> Shooting the shooter </div>
+    </div>
+    <div class="column">
+      <img src="pictures/DSC00076.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      <div class="desc"> Nuture nature </div>
+    </div>
   </div>
-</nav>
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div id="numbertext"></div>
+        <img src="pictures/DSC00071.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div id="numbertext"></div>
+        <img src="pictures/DSC00116.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div id="numbertext"></div>
+        <img src="pictures/DSC00169.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div id="numbertext"></div>
+        <img src="pictures/shooter.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div id="numbertext"></div>
+        <img src="pictures/DSC00076.jpg" style="width:100%">
+      </div>
+
+      <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+  </div>
 
 </body>
 </html>
