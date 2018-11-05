@@ -7,18 +7,33 @@ body {
   background-color: white;
 }
 
-#header{
+#header {
   font-family: 'Helvetica', monospace;
   color: #333333;
+  height: 10em;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
-#name{
+#name {
   font-size: 49px;
 }
 
-#desc{
+#desc {
   font-size: 27px;
 }
+
+#paragraph{
+  font-size: 20px;
+}
+
+#list{
+  font-weight: bold;
+}
+
 .but5 {
   font-family: 'Helvetica', monospace;
   background-color: #262626;
