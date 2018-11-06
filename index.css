@@ -18,6 +18,14 @@ body {
   transform: translate(-50%, -50%)
 }
 
+#school {
+  font-family: 'Helvetica', monospace;
+  color: #333333;
+  position: absolute;
+  top: 60%;
+}
+
+
 #name {
   font-size: 80px;
 }
