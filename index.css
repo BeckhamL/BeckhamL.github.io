@@ -2,6 +2,7 @@
   font-family: 'Helvetica', monospace;
   color: #333333;
   position: absolute;
+  display: inline-block;
   transform: translate(-50%, -50%);
 }
 
@@ -48,7 +49,11 @@
 }
 
 #indexImage {
+  display: inline-block;
   width: 500px;
+  right: 370px;
+  bottom: -80px;
+  position: absolute;
 }
 
 .scrollText {
@@ -78,6 +83,7 @@ body {
   height:100vh;
   display:inline-block;
   position:relative;
+  border-right: 4px dotted black;
 }
 
 #container .box > div {
@@ -120,11 +126,11 @@ body {
   background-color: white;
 }
 .two {
-  background-color: #f2f2f2;
+  background-color: white;
 }
 .three {
   background-color: white;
 }
 .four {
-  background-color: #f2f2f2;
+  background-color: white;
 }
