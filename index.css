@@ -1,12 +1,16 @@
-body {
-  background-color: white;
-}
-
 #header {
   font-family: 'Helvetica', monospace;
   color: #333333;
   position: absolute;
   transform: translate(-50%, -50%);
+}
+
+#eHeader {
+  font-family: 'Georgia';
+  color: #333333;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-150%, -180%);
 }
 
 #school {
@@ -34,6 +38,11 @@ body {
   margin: 0;
 }
 
+#elist {
+  padding: 0;
+  margin: 0;
+}
+
 #list li{
   display: inline;
 }
@@ -42,16 +51,35 @@ body {
   width: 500px;
 }
 
+.scrollText {
+  color: black;
+  position: relative;
+  left: 870px;
+  bottom: 401px;
+  font-size: 20px;
+  font-family: 'Helvetica', monospace; 
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 body {
   margin:0;
   font-family:Georgia;
+  overflow: hidden;
 }
+
 #container .box {
   width:100vw;
   height:100vh;
   display:inline-block;
   position:relative;
 }
+
 #container .box > div {
   width:100px;
   height:100px;
@@ -64,6 +92,7 @@ body {
   line-height:.7;
   font-weight:bold;
 }
+
 #container {
   overflow-y:scroll;
   overflow-x:hidden;
@@ -74,6 +103,12 @@ body {
   width:100vh;
   height:100vw;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
 #container2 {
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
@@ -85,11 +120,11 @@ body {
   background-color: white;
 }
 .two {
-  background-color: #49E83E;
+  background-color: #f2f2f2;
 }
 .three {
-  background-color: #EDDE05;
+  background-color: white;
 }
 .four {
-  background-color: #E84B30;
+  background-color: #f2f2f2;
 }
