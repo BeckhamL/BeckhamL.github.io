@@ -1,5 +1,5 @@
 #header {
-  font-family: 'Helvetica', monospace;
+  font-family: 'Georgia';
   color: #333333;
   position: absolute;
   display: inline-block;
@@ -11,11 +11,27 @@
   color: #333333;
   font-size: 50px;
   position: absolute;
-  transform: translate(-150%, -180%);
+  transform: translate(-90%, -180%);
+}
+
+#pHeader {
+  font-family: 'Georgia';
+  color: #333333;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-120%, -180%);
+}
+
+#photoHeader {
+  font-family: 'Georgia';
+  color: #333333;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-90%, -180%);
 }
 
 #school {
-  font-family: 'Helvetica', monospace;
+  font-family: 'Georgia';
   color: #333333;
   position: absolute;
   top: 60%;
@@ -56,14 +72,51 @@
   position: absolute;
 }
 
+#expImage {
+  display: inline-block;
+  width: 460px;
+  position: absolute;
+  right: 570%;
+  bottom: 180%;
+}
+
+#projImage {
+  display: inline-block;
+  width: 460px;
+  position: absolute;
+  right: 550%;
+  bottom: 210%;
+}
+
+#photoImage {
+  display: inline-block;
+  width: 460px;
+  position: absolute;
+  right: 610%;
+  bottom: 210%;
+}
+
+#experienceList {
+  color: #333333;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+#experienceList li  {
+  list-style-type: none;
+  font-size: 40px;
+  padding-top: 15px;
+}
+
 .scrollText {
   color: black;
-  position: relative;
-  left: 870px;
-  bottom: 401px;
+  position: absolute;
+  left: 900px;
+  bottom: 40px;
   font-size: 20px;
   font-family: 'Helvetica', monospace; 
-  animation: blinker 1s linear infinite;
+  animation: blinker 2s linear infinite;
 }
 
 @keyframes blinker {
