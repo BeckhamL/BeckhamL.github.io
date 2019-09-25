@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="projects.css">
-	<title>Projects</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="projects.css">
+  <title>Projects</title>
 </head>
 <body>
 
-<nav>
-  <div class='container'>
-    <div id='icon'></div>
-    <ul>
-      <li>
-        <a href='index.html'>Home</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">BL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="projects.html">Projects</a>
       </li>
-      <li>
-        <a href='about_me.html'>About Me</a>
+      <li class="nav-item">
+        <a class="nav-link" href="experience.html">Experience</a>
       </li>
-      <li>
-        <a href='education.html'>Education</a>
+	  <li class="nav-item">
+        <a class="nav-link" href="photography.html">Photography</a>
       </li>
-      <li>
-        <a href='experience.html'>Experience</a>
+	  <li class="nav-item">
+        <a  class="nav-link" href="./pictures/resume.pdf" target="_blank">Resume</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Social Media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://github.com/BeckhamL" target="_blank"><i class='fab fa-github'></i>&nbsp;Github</a>
+          <a class="dropdown-item" href="https://www.instagram.com/igotbeckham/" target="_blank"><i class='fab fa-instagram'></i>&nbsp;Instagram</a>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/beckham-lam-ba4970121/" target="_blank"><i class='fab fa-linkedin'></i>&nbsp;LinkedIn</a>
+        </div>
       </li>
     </ul>
   </div>
 </nav>
-<header>
-  <div class='container'>
-    <h1>Projects</h1>
-  </div>
-</header>
-<div id='nav-bg'></div>
-<section id='about'>
-  <div class='container'>
-    <img src="https://lh3.googleusercontent.com/HV-OGjspXDJIlyJ1rAtsCDGYsoTyB7PneASSOxfYjj2sjlRb5SMbWcImlfwEqCr_9Dk=w300" class="pic1">
-    <img src="https://avatars0.githubusercontent.com/u/3902669?v=3&s=400" class="pic2">
 
-    <p class="p1"> Alphabeti is an Android native application that allows users to sequentially answer questions about educational topics such as geography, science and math. </p>
+<div class="container" id="cont"> 
+	<div class="list-group">
+	  <a href="https://github.com/BeckhamL/kahootsim" target="_blank" class="list-group-item list-group-item-action">
+		<div class="d-flex w-100 justify-content-between">
+		  <h5 class="mb-1">Kahootsim</h5>
+		  <small>2019</small>
+		</div>
+		<p class="mb-1">Application that simulates a Kahoot game. Utilizes web sockets to allow for real time <br> gameplay between client and server.</p>
+		<small>Technologies: Java Spring, JavaScript, AJAX, JQuery, Bootstrap, Apache Tomcat, Hibernate, Maven</small>
+	  </a>
+	  <a href="https://github.com/BeckhamL/goRead" target="_blank" class="list-group-item list-group-item-action">
+		<div class="d-flex w-100 justify-content-between">
+		  <h5 class="mb-1">goRead</h5>
+		  <small class="text-muted">2019</small>
+		</div>
+		<p class="mb-1">Summarizes the top-headlining articles from websites such as CNN and Times into short and concise paragraphs.</p>
+		<small class="text-muted">Technologies: Golang, Vue, HTML, CSS</small>
+	  </a>
+	  <a href="https://github.com/BeckhamL/eStore" target="_blank" class="list-group-item list-group-item-action">
+		<div class="d-flex w-100 justify-content-between">
+		  <h5 class="mb-1">eStore</h5>
+		  <small class="text-muted">2019</small>
+		</div>
+		<p class="mb-1">E-commerce store.</p>
+		<small class="text-muted">Technologies: Angular, Mongodb, Express, Node, TypeScript</small>
+	  </a>
+	  <a href="https://github.com/BeckhamL/Alphabeti" target="_blank" class="list-group-item list-group-item-action">
+		<div class="d-flex w-100 justify-content-between">
+		  <h5 class="mb-1">Alphabeti</h5>
+		  <small class="text-muted">2016</small>
+		</div>
+		<p class="mb-1">Android application that allows users to questions on academic topics.</p>
+		<small class="text-muted">Technologies: Java, XML, Android Studio</small>
+	  </a>
+	</div>
+</div>
 
-    <p class="p2"> McGill Robotics Mini-Project: Sorting algorithm that uses a binary classification to seperate objects based on color resolution. This robot uses computer vision and machine learning to gradually recognize patterns to increase sort time.</p>
-
-    <ul class="ul">
-      <li> Material Design and animations developed with XML. </li>
-      <li> Back-end and OOP developed with Java and Android SDK </li>
-      <li> Maintain a 30% user retention rate </li>
-      <li> Tools: Java/XML, Android Studio, Git </li>
-    </ul>
-  </div>
-</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </body>
 </html>

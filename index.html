@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <a href="https://icons8.com/icon/32323/instagram"></a>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,101 +13,52 @@
 
 <body>
 
-  <div id="container">
-    <div id="container2">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">BL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="box one">
-        <div>
-          <div class="scrollText"><img src="pictures/scroll.png"></img> </div>
-          <img src="pictures/success.png" id="indexImage"> </img>
-          <div id="header">
-            
-            <h1 id="name">Beckham Lam</h1>
-            <h2 id="desc">Java && GO Developer</h2>
-            <p id="paragraph"> Currently a 4th year student at McGill University with a double major in <br> Software
-              Engineering and Economics. </p>
-            <ul id="list">
-              <li>
-                <a href="https://github.com/BeckhamL" target="_blank"><img src="https://img.icons8.com/dusk/64/000000/github.png"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/igotbeckham/" target="_blank"><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png"></a>
-              </li>
-              <li>
-                <a href="mailto:beckham.lam12@gmail.com?Subject=Hello" target="_blank"><img src="https://img.icons8.com/dusk/64/000000/gmail.png"></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/beckham-lam-ba4970121/" target="_blank"><img src="https://img.icons8.com/dusk/64/000000/linkedin.png"></a>
-              </li>
-              <li>
-                <a href="pictures/resume.pdf" target="_blank"><img src="https://img.icons8.com/dusk/64/000000/overview-pages-2.png"></a>
-              </li>
-              <li>
-                <a href="photography.html"><img src="https://img.icons8.com/dusk/64/000000/compact-camera.png"></a>
-              </li>
-            </ul>
-          </div>
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="experience.html">Experience</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="photography.html">Photography</a>
+      </li>
+	  <li class="nav-item">
+        <a  class="nav-link" href="./pictures/resume.pdf" target="_blank">Resume</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Social Media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://github.com/BeckhamL" target="_blank"><i class='fab fa-github'></i>&nbsp;Github</a>
+          <a class="dropdown-item" href="https://www.instagram.com/igotbeckham/" target="_blank"><i class='fab fa-instagram'></i>&nbsp;Instagram</a>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/beckham-lam-ba4970121/" target="_blank"><i class='fab fa-linkedin'></i>&nbsp;LinkedIn</a>
         </div>
-      </div>
-
-      <div class="box two" style="border:none">
-        <div >
-            <!-- <div class="scrollText"><img src="pictures/scroll.png"></img> </div> -->
-            
-            <div id="eHeader">
-              <img src="pictures/experience.png" id="expImage"> </img>
-              <h1>Experience</h1>
-
-                <ul id="experienceList">
-                    <li>
-                      J. Walter Thompson - Software Engineering Intern
-                      <ul id="listDescription">
-                        <li>Front-end development on Mazda Canada micro-site</li>
-                        <li>Air-Canada flight booking web application</li>
-                      </ul>
-                    </li>
-                    <li> McGill Computer TaskForce - Server Team Member
-                      <ul id="listDescription">
-                          <li>Implemented function to pull TEPID printer status for Discord bot </li>
-                          <li>Front-end development on <a href="https://ctf.science.mcgill.ca" target="_blank">ctf.science.mcgill.ca</a></li>
-                      </ul>
-                    </li>
-                    
-                    <li>
-                      McGill Robotics - Drone Software Engineering Member
-                      <ul id="listDescription">
-                        <li>Implement competition clock to manage routes and pathing while drone in flight</li>
-                      </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </div>
-
-      <!-- <div class="box three">
-        <div>
-            <div class="scrollText"><img src="pictures/scroll.png"></img> </div>
-            <img src="pictures/projects.png" id="projImage"> </img>
-            <div id="pHeader">
-              <h1>Projects</h1>
-            </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="box four" style="border: none">
-        <div>
-          <img src="pictures/photography.png" id="photoImage"> </img>
-          <div id="photoHeader">
-            <h1>Photography</h1>
-            
-          </div>
-
-        </div>
-      </div> -->
-
-    </div>
+      </li>
+    </ul>
   </div>
+</nav>
+
+<div class="container" id="cont">
+<p id="title">MEAN && Java</p>
+<p> I am a recent graduate from McGill University with a bachelor's degree in Computer Science and Economics. <br> I am currently a full-stack developer at RBC Capital Markets. 
+The technologies I work with are <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://nodejs.org/en/" target="_blank">Node</a>, <a href="https://angular.io/" target="_blank">Angular</a> and Java (<a href="https://spring.io/" target="_blank">Spring</a>). 
+<br> <br>
+I enjoy playing guitar and badminton on my free time and I post guitar covers on instagram <a href="https://www.instagram.com/igotbeckham/" target="_blank">@igotbeckham</a></p> 
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </body>
 

@@ -2,301 +2,214 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="photography.css">
-	<title>Photography</title>
+  <link rel="stylesheet" type="text/css" href="photography.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
+  <title>Photography</title>
 </head>
 
 <body>
 
-	<h1 style="text-align:center">2017</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">BL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<div class="row">
-		<div class="column">
-			<img src="pictures/knees-min.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-			<div class="desc"> Knees are weak </div>
-		</div>
-		<div class="column">
-			<img caption="good friends" src="pictures/goodfriends-min.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-			<div class="desc"> Good friends in low light </div>
-		</div>
-		<div class="column">
-			<img src="pictures/stillness-min.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-			<div class="desc"> Stillness </div>
-		</div>
-		<div class="column">
-			<img src="pictures/shooter-min.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-			<div class="desc"> Shooting the shooter </div>
-		</div>
-		<div class="column">
-			<img src="pictures/nature-min.JPG" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-			<div class="desc"> Nuture nature </div>
-		</div>
-		<div class="column">
-			<img src="pictures/ctf-min.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-			<div class="desc"> CTF </div>
-		</div>
-		<div class="column">
-			<img src="pictures/wisdom-min.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-			<div class="desc">Wisdom teeth removal</div>
-		</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="experience.html">Experience</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="photography.html">Photography</a>
+      </li>
+	  <li class="nav-item">
+        <a  class="nav-link" href="./pictures/resume.pdf" target="_blank">Resume</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Social Media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://github.com/BeckhamL" target="_blank"><i class='fab fa-github'></i>&nbsp;Github</a>
+          <a class="dropdown-item" href="https://www.instagram.com/igotbeckham/" target="_blank"><i class='fab fa-instagram'></i>&nbsp;Instagram</a>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/beckham-lam-ba4970121/" target="_blank"><i class='fab fa-linkedin'></i>&nbsp;LinkedIn</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">2017</h1>
+  <h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Toronto</h2>
+  <hr class="mt-2 mb-5">
+
+  <div class="row text-center text-lg-left">
+
+    <div class="col-lg-3 col-md-4 col-6" id="photo" >
+      <img class="img-fluid img-thumbnail" src="./pictures/knees-min.jpg" alt="">
+	  <p class="text"> "knees weak" </p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6" id="photo">
+      <img class="img-fluid img-thumbnail" src="./pictures/goodfriends-min.jpg" alt="">
+		<p class="text"> "Friends in low light"</p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6" id="photo">
+      <img class="img-fluid img-thumbnail" src="./pictures/stillness-min.jpg" alt="">
+		<p class="text"> "Stillness" </p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6" id="photo">
+      <img class="img-fluid img-thumbnail" src="./pictures/shooter-min.jpg" alt="">
+		<p class="text"> "Shooting the shooter" </p>
+    </div>
+  </div>
+  
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">2018</h1>
+	<h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Korea</h2>
+	<hr class="mt-2 mb-5">
+
+  
+   <div class="row text-center text-lg-left">
+	<!--
+      <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/falling-min.jpg" alt="">
+		<p class="text"> "Monkey business" </p>		
+	  </div>
+	  -->
+      <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/palace-min.jpg" alt="">
+		<p class="text"> "Gyeongbokgung" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/me-min.jpg" alt="">
+		<p class="text"> "Flower Crown" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/kingdom-min.jpg" alt="">
+		<p class="text"> "The Kingdom" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/squatter-min.jpg" alt="">
+		<p class="text"> "Squatters rights" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/starfield-min.jpg" alt="">
+		<p class="text"> "Starfield Library" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/bingsoo-min.jpg" alt="">
+		<p class="text"> "Bingsoo!" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/brendan-min.jpg" alt="">
+		<p class="text"> "Uncle Chong" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/coldplay-min.jpg" alt="">
+		<p class="text"> "Everglow" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/creep-min.jpg" alt="">
+		<p class="text"> "Hide your kids" </p>		
+	  </div>	  
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/married-min.jpg" alt="">
+		<p class="text"> "Just married" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/date-min.jpg" alt="">
+		<p class="text"> "Everyone's dating" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/mission-min.jpg" alt="">
+		<p class="text"> "Man on a mission" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/seoul-min.jpg" alt="">
+		<p class="text"> "Beautiful" </p>		
+	  </div>
+   </div>
+   
+   	<h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Taiwan</h2>
+	<hr class="mt-2 mb-5">
+	
+	<div class="row text-center text-lg-left">
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/bbt-min.jpg" alt="">
+		<p class="text"> "3 bbt's a day" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/jetlagged-min.jpg" alt="">
+		<p class="text"> "Jetlagged" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/streetfood-min.jpg" alt="">
+		<p class="text"> "So good but so unhealthy" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/quinn+food-min.jpg" alt="">
+		<p class="text"> "Happiest when he's eating" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/heart-min.jpg" alt="">
+		<p class="text"> "BROMANCE" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/cool-min.jpg" alt="">
+		<p class="text"> "Cool shot of us" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/hanging-min.jpg" alt="">
+		<p class="text"> "Hangin' with the boys" </p>		
+	  </div>
+	</div>
+	
+	<h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Japan</h2>
+	<hr class="mt-2 mb-5">
+
+	<div class="row text-center text-lg-left">
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/quinn-min.jpg" alt="">
+		<p class="text"> "Chuckle" </p>		
+	  </div>
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/below-min.jpg" alt="">
+		<p class="text"> "From hi up" </p>		
+	  </div>	 
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/group-min.jpg" alt="">
+		<p class="text"> "Group photo" </p>		
+	  </div>	 
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/pink-min.jpg" alt="">
+		<p class="text"> "Pink theme" </p>		
+	  </div>	  
 	</div>
 
-	<h1 style="text-align:center">2018</h1>
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">2019</h1>	
+	<h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Warsaw Caves</h2>
+	<hr class="mt-2 mb-5">
+	
+	<div class="row text-center text-lg-left">
+	  <div class="col-lg-3 col-md-4 col-6" id="photo">
+		<img class="img-fluid img-thumbnail" src="./pictures/quinn-min.jpg" alt="">
+		<p class="text"> "Chuckle" </p>		
+	  </div>
+	</div>	
 
-	<h2 style="text-align:center">Korea</h2>
-
-	<div class="row">
-		<div class="column">
-			<img src="pictures/falling-min.JPG" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-			<div class="desc"> Monkey business </div>
-		</div>
-		<div class="column">
-			<img src="pictures/palace-min.JPG" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-			<div class="desc"> Gyeongbokgung </div>
-		</div>
-		<div class="column">
-			<img src="pictures/me-min.JPG" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-			<div class="desc"> Flower crown </div>
-		</div>
-		<div class="column">
-			<img src="pictures/kingdom-min.JPG" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
-			<div class="desc"> The kindgom </div>
-		</div>
-		<div class="column">
-			<img src="pictures/squatter-min.JPG" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
-			<div class="desc"> Squatter's rights </div>
-		</div>
-		<div class="column">
-			<img src="pictures/starfield-min.JPG" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
-			<div class="desc"> Starfield library </div>
-		</div>
-		<div class="column">
-			<img src="pictures/bingsoo-min.JPG" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
-			<div class="desc"> Bingsoo! </div>
-		</div>
-		<div class="column">
-			<img src="pictures/brendan-min.JPG" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
-			<div class="desc"> Full time photographer </div>
-		</div>
-		<div class="column">
-			<img src="pictures/coldplay-min.JPG" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
-			<div class="desc"> Everglow </div>
-		</div>
-		<div class="column">
-			<img src="pictures/creep-min.JPG" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
-			<div class="desc"> Hide your kids </div>
-		</div>
-		<div class="column">
-			<img src="pictures/married-min.JPG" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
-			<div class="desc"> Just married </div>
-		</div>
-		<div class="column">
-			<img src="pictures/date-min.JPG" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
-			<div class="desc"> Everyone's dating </div>
-		</div>
-		<div class="column">
-			<img src="pictures/mission-min.JPG" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
-			<div class="desc"> Man on a mission </div>
-		</div>
-		<div class="column">
-			<img src="pictures/seoul-min.JPG" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
-			<div class="desc"> Beautiful </div>
-		</div>
-	</div>
-
-	<div class="row">
-		<h2 style="text-align:center">Taiwan</h2>
-		<div class="column">
-			<img src="pictures/bbt-min.JPG" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
-			<div class="desc"> 3 bubble tea's a day </div>
-		</div>
-		<div class="column">
-			<img src="pictures/jetlagged-min.JPG" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
-			<div class="desc"> Jetlagged </div>
-		</div>
-		<div class="column">
-			<img src="pictures/streetfood-min.JPG" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
-			<div class="desc"> Streetfood </div>
-		</div>
-		<div class="column">
-			<img src="pictures/quinn+food-min.JPG" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
-			<div class="desc"> Happiest when he's eating </div>
-		</div>
-		<div class="column">
-			<img src="pictures/heart-min.JPG" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
-			<div class="desc"> Bromance </div>
-		</div>
-		<div class="column">
-			<img src="pictures/cool-min.JPG" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
-			<div class="desc"> Sunset </div>
-		</div>
-		<div class="column">
-			<img src="pictures/hanging-min.JPG" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
-			<div class="desc"> Hangin' with the boys </div>
-		</div>
-	</div>
-
-	<h2 style="text-align:center">Japan</h2>
-<div class="row">
-	<div class="column">
-		<img src="pictures/quinn-min.JPG" style="width:100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
-		<div class="desc"> Chuckle </div>
-	</div>
-	<div class="column">
-		<img src="pictures/below-min.JPG" style="width:100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
-		<div class="desc"> From hi up </div>
-	</div>
-	<div class="column">
-		<img src="pictures/group-min.JPG" style="width:100%" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
-		<div class="desc"> Group photo </div>
-	</div>
-	<div class="column">
-		<img src="pictures/pink-min.JPG" style="width:100%" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
-		<div class="desc"> Pink theme </div>
-	</div>
 </div>
 
-	<div id="myModal" class="modal">
-		<span class="close cursor" onclick="closeModal()">&times;</span>
-		<div class="modal-content">
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/knees-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img caption="Good Friends1" src="pictures/goodfriends-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/stillness-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/shooter-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/nature-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/ctf-min.png" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/wisdom-min.png" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/falling-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/palace-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/me-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/kingdom-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/squatter-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/starfield-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/bingsoo-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/brendan-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/coldplay-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/creep-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/married-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/date-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/mission-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/seoul-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/bbt-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/jetlagged-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/streetfood-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/quinn+food-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/heart-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/quinn-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/sunset-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/hanging-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/below-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/group-min.JPG" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<div id="numbertext"></div>
-				<img src="pictures/pink-min.JPG" style="width:100%">
-			</div>
-			<div class="caption-container">
-				<div id="caption">hi</div>
-			</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		</div>
-	</div>
-	<script type="text/javascript" src="/photography.js"></script>
 </body>
 
 </html>
