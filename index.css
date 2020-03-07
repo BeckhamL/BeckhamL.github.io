@@ -1,10 +1,14 @@
-
 #title {
 	font-style: bold;
 	font-size: 60px;
 }
 
-#cont {
-	margin-top: 100px;
+.text {
 	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
