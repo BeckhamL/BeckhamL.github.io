@@ -5,8 +5,9 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="index.css" />
@@ -16,7 +17,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="index.html">BL</a>
       <button
         class="navbar-toggler"
@@ -33,85 +34,101 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="experience.html">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="photography.html">Photography</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="./pictures/resume.pdf" target="_blank"
               >Resume</a
             >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Social Media
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a
-                class="dropdown-item"
-                href="https://github.com/BeckhamL"
-                target="_blank"
-                ><i class="fab fa-github"></i>&nbsp;Github</a
-              >
-              <a
-                class="dropdown-item"
-                href="https://www.instagram.com/igotbeckham/"
-                target="_blank"
-                ><i class="fab fa-instagram"></i>&nbsp;Instagram</a
-              >
-              <a
-                class="dropdown-item"
-                href="https://www.linkedin.com/in/beckham-lam-ba4970121/"
-                target="_blank"
-                ><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a
-              >
-            </div>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="container">
-      <div class="text">
-        <p id="title">FRONT-END DEVELOPER</p>
-        <p>
-          I currently work at 
-          <a href="http://www.vyana.io/">Vyana.io</a> as a front-end developer working with Angular, Typescript, HTML and SCSS.
-        </p>
-        <p>
-          I am a recent graduate from McGill University with a bachelor's degree
-          in Computer Science and Economics. <br />
-          I enjoy playing guitar and badminton on my free time and I post guitar
-          covers on instagram
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+
+    <div class="content_container">
+      <div class="intro_container">
+        <div class="text">
+          <div>Hi!, I'm</div>
+          <div class="title">Beckham</div>
+          <div>- Front-end developer -</div>
+          <a href="https://github.com/BeckhamL" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
           <a href="https://www.instagram.com/igotbeckham/" target="_blank"
-            >@igotbeckham</a
-          >
-        </p>
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/beckham-lam-ba4970121/"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <div class="about_container">
+        <div class="subheader_text">ABOUT ME.</div>
+        <div class="image_bio_wrapper">
+          <img src="./pictures/image.jpg" class="portrait" />
+          <div class="text">
+            I grew up and lived in Toronto for 20 years until I went to McGill
+            University in Montréal. I graduated with a bachelor's in Computer
+            Science/Economics and a dream of getting paid to write code. I'm
+            currently working at Vyana.io where I code mostly with TypeScript,
+            Angular, HTML and SCSS. I love clean and intuitive UI/UX designs and
+            playing guitar.
+          </div>
+        </div>
+      </div>
+      <div class="about_container">
+        <div class="subheader_text">WEBSITES I'VE HELPED BUILD.</div>
+        <div class="website_wrapper">
+          <div class="website_card">
+            <img src="./pictures/ctf.png" class="website_image" />
+            <div class="overlay">
+              <div class="overlay_header">
+                McGill Computer Science Task Force
+              </div>
+              <div class="overlay_text">Technologies: HTML, SCSS</div>
+              <div class="overlay_text">Circa: 2018</div>
+              <a
+                class="view_site"
+                href="https://ctf.science.mcgill.ca/index.html"
+                target="_blank"
+              >
+                View site
+            </a>
+            </div>
+          </div>
+          <div class="website_card">
+            <img src="./pictures/mazda.png" class="website_image" />
+            <div class="overlay">
+              <div class="overlay_header">Mazda Canada test drive</div>
+              <div class="overlay_text">Technologies: JavaScript, HTML, SCSS</div>
+              <div class="overlay_text">Circa: 2017</div>
+              <a
+                class="view_site"
+                href="https://www.mazda.ca/en/shopping-tools/book-a-test-drive/"
+                target="_blank"
+              >
+                View site
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about_container">
+        <div class="subheader_text">PLACES I'VE WORKED.</div>
+      </div>
+      <div class="about_container">
+        <div class="subheader_text">THINGS I WORK WITH.</div>
+        <div class="languages_wrapper">
+          <img src="./pictures/typescript.svg" class="language_icon" />
+          <img src="./pictures/javascript.svg" class="language_icon" />
+          <img src="./pictures/java.svg" class="language_icon" />
+          <img src="./pictures/mongo.svg" class="language_icon" />
+        </div>
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
