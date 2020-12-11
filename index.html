@@ -47,22 +47,25 @@
 
     <div class="content_container">
       <div class="intro_container">
-        <div class="text">
+        <div class="into_text text">
           <div>Hi!, I'm</div>
           <div class="title">Beckham</div>
-          <div>- Front-end developer -</div>
-          <a href="https://github.com/BeckhamL" target="_blank"
-            ><i class="fab fa-github fa-2x"></i
-          ></a>
-          <a href="https://www.instagram.com/igotbeckham/" target="_blank"
-            ><i class="fab fa-instagram fa-2x"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/beckham-lam-ba4970121/"
-            target="_blank"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
+          <div>Front-end developer</div>
+          <div class="socials_wrapper">
+            <a href="https://github.com/BeckhamL" target="_blank"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a href="https://www.instagram.com/igotbeckham/" target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/beckham-lam-ba4970121/"
+              target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
         </div>
+        <div class="stagger-visualizer"></div>
       </div>
       <div class="about_container">
         <div class="subheader_text">ABOUT ME.</div>
@@ -73,8 +76,8 @@
             University in Montréal. I graduated with a bachelor's in Computer
             Science/Economics and a dream of getting paid to write code. I'm
             currently working at Vyana.io where I code mostly with TypeScript,
-            Angular, HTML and SCSS. I love clean and intuitive UI/UX designs and
-            playing guitar.
+            Angular, HTML and SCSS. I love playing badminton and playing guitar
+            on my free time.
           </div>
         </div>
       </div>
@@ -95,14 +98,16 @@
                 target="_blank"
               >
                 View site
-            </a>
+              </a>
             </div>
           </div>
           <div class="website_card">
             <img src="./pictures/mazda.png" class="website_image" />
             <div class="overlay">
               <div class="overlay_header">Mazda Canada test drive</div>
-              <div class="overlay_text">Technologies: JavaScript, HTML, SCSS</div>
+              <div class="overlay_text">
+                Technologies: JavaScript, HTML, SCSS
+              </div>
               <div class="overlay_text">Circa: 2017</div>
               <a
                 class="view_site"
@@ -110,13 +115,57 @@
                 target="_blank"
               >
                 View site
-            </a>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="about_container">
         <div class="subheader_text">PLACES I'VE WORKED.</div>
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="content">
+                <h3>J. Walter Thompson</h3>
+                <p>Sofware Engineering Intern</p>
+              </div>
+              <div class="point"></div>
+              <div class="date">
+                <h4>Jan 2017 - Jun 2017</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>McGill University</h3>
+                <p>Graduated</p>
+              </div>
+              <div class="point"></div>
+              <div class="date">
+                <h4>May 2019</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Vyana.io</h3>
+                <p>Front-end developer</p>
+              </div>
+              <div class="point"></div>
+              <div class="date">
+                <h4>2019</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>TBD</h3>
+                <p>TBD</p>
+              </div>
+              <div class="point"></div>
+              <div class="date">
+                <h4>20??</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="about_container">
         <div class="subheader_text">THINGS I WORK WITH.</div>
@@ -128,7 +177,8 @@
         </div>
       </div>
     </div>
-
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
+    <script src="index.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
