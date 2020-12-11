@@ -35,8 +35,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 100vh;
 }
@@ -137,6 +135,22 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #ec615b;
+  text-decoration: none;
+}
+
+.anim,
+.anim svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.anim path {
+  stroke-width: 3;
+}
+
 .bg {
   -webkit-animation: slide 6s ease-in-out infinite alternate;
   animation: slide 6s ease-in-out infinite alternate;
@@ -228,7 +242,7 @@ a {
 .timeline ul li .content h3 {
   padding: 10px 20px;
   color: white;
-  background-color: #557ea7;
+  background-color: #364a61;
   margin-bottom: 0;
   text-align: center;
   border-top-left-radius: 10px;
@@ -239,7 +253,7 @@ a {
 .timeline ul li .content p {
   padding: 10px 20px;
   color: white;
-  background-color: #364a61;
+  background-color: #202c3a;
   margin-top: 0;
   text-align: center;
   border-bottom-left-radius: 10px;
@@ -263,30 +277,22 @@ a {
   background-color: #ec615b;
 }
 
+.languages_wrapper {
+  color: white;
+}
+
 ul {
   padding: 0;
+  list-style-type: none;
 }
 
-.stagger-visualizer {
-  display: flex;
-  /*flex-wrap: wrap;*/
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  height: 450px;
-}
-
-.stagger-visualizer div {
-  /*position: absolute;*/
-  width: 64px;
-  height: 128px;
-  border: 1px solid white;
-  background-color: #ec615b;
-}
+/* RESPONSIVE */
 
 @media only screen and (max-width: 1475px) {
   .intro_container {
     flex-direction: column-reverse;
+    align-items: flex-start;
+    height: 100%;
   }
 
   .into_text {
@@ -347,7 +353,7 @@ ul {
   }
 
   p {
-    padding: 10px !important;
+    padding: 11px !important;
   }
 }
 
@@ -358,6 +364,34 @@ ul {
   }
 
   p {
-    padding: 10px !important;
+    padding: 11px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .portrait {
+    width: 150px;
+    margin-right: 0;
+  }
+
+  .overlay_header {
+    font-size: 18px;
+  }
+  .timeline ul li .date h4 {
+    font-size: 11px;
+  }
+
+  h3 {
+    font-size: 11px;
+  }
+
+  .title {
+    font-size: 5rem;
   }
 }
