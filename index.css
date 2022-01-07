@@ -16,6 +16,14 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: #1F51FF;
+}
+
+a:hover {
+  color: 	#008080;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -84,7 +92,7 @@ body {
 
 .view_site {
   cursor: pointer;
-  color: #ec615b;
+  color: #0047AB;
 }
 
 .website_card:hover .overlay {
@@ -93,11 +101,6 @@ body {
 
 .language_icon {
   width: 200px;
-}
-
-a:hover {
-  color: #ec615b;
-  text-decoration: none;
 }
 
 .languages_wrapper {
