@@ -64,8 +64,12 @@ a:hover {
   margin-right: 50px;
 }
 
-.socials_wrapper {
-  margin-top: 20px;
+.socials_wrapper a {
+  color: black;
+}
+
+.socials_wrapper a:hover {
+  color: #008080;
 }
 
 .website_wrapper {
@@ -154,8 +158,9 @@ ul {
     margin-right: 0px;
   }
 
-  .into_text {
+  .intro_text {
     margin: 2rem 0px;
+    text-align: center;
   }
 
   .title {
