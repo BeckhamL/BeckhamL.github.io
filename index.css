@@ -48,6 +48,8 @@ a:hover {
 }
 
 .subheader_text {
+  border-bottom: 5px solid #008080;
+  margin-bottom: 20px;
   font-size: 3rem;
   letter-spacing: 0.46px;
   font-weight: bold;
